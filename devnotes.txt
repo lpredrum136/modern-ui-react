@@ -1,0 +1,2 @@
+yarn create react-app ./ --template typescript
+yarn add react-icons
