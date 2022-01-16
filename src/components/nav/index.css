@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .nav-item-text {
+    @apply text-white font-medium text-[18px] leading-[25px] cursor-pointer;
+  }
+}

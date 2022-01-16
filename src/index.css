@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border p-0 m-0 scroll-smooth;
+  }
+
+  body {
+    @apply bg-gpt3;
+  }
+
+  a {
+    color: unset;
+    @apply no-underline;
+  }
+}
+
+.gradient__text {
+  @apply bg-gradient-text bg-clip-text;
+}
+
+.section__padding {
+  @apply py-16 px-8 sm:px-16 md:px-24;
+}
+
+.section__margin {
+  @apply my-16 mx-8 sm:mx-16 md:mx-24;
+}
+
+.gradient__bg {
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgba(4, 12, 24, 1) 100%
+  );
+}

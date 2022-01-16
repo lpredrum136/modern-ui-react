@@ -1,2 +1,11 @@
 yarn create react-app ./ --template typescript
 yarn add react-icons
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+add to tailwind.config.js as in tailwind doc
+
+Create gradient
+https://angrytools.com/gradient/
+
+Create animation
+https://animista.net/

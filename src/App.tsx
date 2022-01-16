@@ -12,7 +12,7 @@ import { Cta, Brand, Nav } from './components'
 
 function App() {
   return (
-    <div className="App">
+    <div className="font-manrope">
       <div className="gradient__bg">
         <Nav />
         <Header />
