@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .email-inputs {
+    @apply text-xl leading-7 text-white py-0 px-4 outline-none min-h-[50px];
+  }
+}

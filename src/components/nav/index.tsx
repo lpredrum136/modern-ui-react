@@ -51,7 +51,7 @@ const Nav = () => {
             <div>
               <NavMenu isMobile />
             </div>
-            <div className="">
+            <div>
               <NavItem isMobile label="Sign In" asLink={false} />
               <button
                 type="button"

@@ -7,9 +7,8 @@ module.exports = {
       },
       colors: {
         gpt3: '#040C18',
-        'gradient-text':
-          'linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)',
-        footer: '#031B34'
+        footer: '#031B34',
+        paragraph: '#81AFDD'
       },
       animation: {
         'scale-up-center':
