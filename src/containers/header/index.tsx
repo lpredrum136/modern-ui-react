@@ -4,7 +4,7 @@ import './index.css'
 
 const Header = () => {
   return (
-    <div id="home" className="flex section__padding">
+    <div id="home" className="flex justify-between section__padding">
       <div className="flex flex-col grow justify-center items-start mr-20">
         <h1 className="gradient__text font-extrabold text-[62px] leading-[75px] tracking-tighter">
           Let's Build Something Amazing with GPT-3 OpenAI
@@ -31,14 +31,16 @@ const Header = () => {
           </button>
         </div>
 
-        <div>
+        <div className="flex w-full justify-start items-center mt-8">
           <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <p className="text-white my-0 ml-4 mr-0 font-medium text-[12px]">
+            1,600 people requested access a visit in last 24 hours
+          </p>
         </div>
       </div>
 
-      <div>
-        <img src={ai} alt="ai" />
+      <div className="flex justify-center items-center">
+        <img src={ai} alt="ai" className="w-full h-full" />
       </div>
     </div>
   )
