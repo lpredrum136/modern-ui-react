@@ -10,7 +10,7 @@ const WhatGPT3 = () => {
       className="flex flex-col p-8 bg-footer section__margin gradient__whatisgpt3 filter-whatisgpt3"
     >
       <div className="flex">
-        <Feature title={main.title} text={main.text} />
+        <Feature title={main.title} text={main.text} isMain />
       </div>
 
       <div className="flex justify-between items-center mx-0 mt-16 mb-8">

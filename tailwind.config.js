@@ -10,8 +10,7 @@ module.exports = {
         footer: '#031B34',
         paragraph: '#81AFDD',
         subtext: '#FF8A71',
-        'gradient-bar':
-          'linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)'
+        primarytext: '#81AFDD'
       },
       animation: {
         'scale-up-center':
