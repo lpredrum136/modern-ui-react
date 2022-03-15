@@ -23,8 +23,8 @@ const WhatGPT3 = () => {
       </div>
 
       <div className="flex mt-8">
-        {supplementary.map(sup => (
-          <Feature title={sup.title} text={sup.text} />
+        {supplementary.map((sup, index) => (
+          <Feature key={index} title={sup.title} text={sup.text} />
         ))}
       </div>
     </div>

@@ -1,4 +1,4 @@
-interface IFeature {
+export interface IFeature {
   title: string
   text: string
 }

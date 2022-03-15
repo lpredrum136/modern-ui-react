@@ -7,29 +7,30 @@ const Spacer = () => (
 const Feature = ({
   title,
   text,
-  isMain
+  isMain,
+  customStyle
 }: {
   title: string
   text: string
   isMain?: boolean
+  customStyle?: string
 }) => {
   return (
     <div
       className={`${
-        isMain ? 'm-0' : 'm-4 grow min-w-[210px] unset flex-col'
-      } w-full flex justify-between items-start`}
+        isMain
+          ? 'm-0 justify-between'
+          : 'm-4 grow min-w-[210px] flex-col justify-start'
+      } w-full flex items-start${customStyle ? ` ${customStyle}` : ''}`}
     >
-      <div className="grow max-w-[180px] mr-8">
+      <div className="max-w-[180px] mr-8">
         <Spacer />
         <h1 className="font-extrabold text-lg leading-6 tracking-tighter text-white">
           {title}
         </h1>
       </div>
-      <div
-        className={`${
-          isMain ? 'max-w-[700px] ' : 'mt-2 max-w-[390px]'
-        }grow-[2]`}
-      >
+
+      <div className={`${isMain ? 'max-w-[700px] ' : 'mt-2 max-w-[390px] '}`}>
         <p className="font-medium text-sm leading-6 text-primarytext">{text}</p>
       </div>
     </div>

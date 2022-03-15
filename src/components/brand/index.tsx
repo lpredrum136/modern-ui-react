@@ -8,8 +8,8 @@ import SingleBrand from './SingleBrand'
 const Brand = () => {
   return (
     <div className="section__padding flex justify-center items-center">
-      {[google, slack, atlassian, dropbox, shopify].map(brand => (
-        <SingleBrand imgSrc={brand} />
+      {[google, slack, atlassian, dropbox, shopify].map((brand, index) => (
+        <SingleBrand key={index} imgSrc={brand} />
       ))}
     </div>
   )
