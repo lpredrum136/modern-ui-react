@@ -19,6 +19,10 @@
   }
 }
 
+.bg-gradient-bar {
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+}
+
 .gradient__text {
   @apply bg-clip-text;
   background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);

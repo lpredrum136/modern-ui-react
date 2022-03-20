@@ -1,5 +1,3 @@
-import './index.css'
-
 const Spacer = () => (
   <div className="w-[38px] h-[3px] bg-gradient-bar shadow-[0_4px_4px_rgba(0, 0, 0, 0.25)] mb-1"></div>
 )
