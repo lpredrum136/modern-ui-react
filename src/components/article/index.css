@@ -1,0 +1,5 @@
+@tailwind components;
+
+.article-paragraph {
+  @apply text-xs font-bold leading-9 text-white;
+}
