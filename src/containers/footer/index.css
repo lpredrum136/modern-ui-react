@@ -1,0 +1,13 @@
+@tailwind components;
+
+.word-spacing-wide {
+  word-spacing: 2px;
+}
+
+.footer-spaced {
+  @apply w-[250px] m-4;
+}
+
+.footer-flexed {
+  @apply footer-spaced flex justify-start flex-col;
+}
